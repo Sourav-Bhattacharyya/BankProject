@@ -26,7 +26,7 @@ jobs:
         java-version: '17'
         distribution: 'adopt'
     - name: Build with Maven
-      run: mvn clean install --enable-native-access=ALL-UNNAMED
+      run: mvn clean install
 
     # Optional: Uploads the full dependency graph to GitHub to improve the quality of Dependabot alerts this repository can receive
     - name: Update dependency graph
